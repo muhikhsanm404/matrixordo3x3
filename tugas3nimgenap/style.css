@@ -1,0 +1,44 @@
+body {
+  background-image: url(img/devochka.jpg);
+  opacity: 0.96;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 140px;
+  margin: 100px;
+  font-size: 24px;
+  color: rgb(49 255 0);
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  color: #f2f2f2;
+  height: 8vh;
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 950px) {
+  div {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    margin: 15px;
+    font-size: 25px;
+    color: rgb(49 255 0);
+  }
+}
